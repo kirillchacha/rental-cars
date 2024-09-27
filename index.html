@@ -1,0 +1,1749 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>HomePage</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20240927140135">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<div id="popup-Book-a-call" aria-hidden="true" class="popup popup--Book-a-call">
+			<div class="popup__wrapper">
+				<div class="popup__content">
+					<button data-close type="button" class="popup__close"></button>
+					<div class="popup__text">
+						<div class="Book-a-call color-text--black-color">
+							<h2 class="Book-a-call__headline title title--title-small">Buchen Sie einen Anruf</h2>
+							<form action="files/sendmail/sendmail.php" method="POST" class="Book-a-call__form booking-form">
+								<div class="booking-form__line">
+									<input type="text" name="form[name]" placeholder="Name" class="booking-form__input input text-placeholder">
+									<input type="tel" name="form[tel]" placeholder="+41 (79) 632-51-36" class="booking-form__input input text-placeholder">
+								</div>
+								<div class="booking-form__button-block"><button type="submit" class="booking-form__button button">Send</button></div>
+								<div class="booking-form__checkbox checkbox">
+									<input id="privacy-3" class="booking-form__input booking-form__input--chk checkbox__input" type="checkbox" value="1" name="form[]">
+									<label for="privacy-3" class="booking-form__label checkbox__label"><span class="booking-form__text checkbox__text">Mit dem Absenden des Formulars erkläre ich mich
+											<a href="#" class="booking-form__link">den Richtlinien zur Verarbeitung personenbezogener
+												Daten</a></span></label>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="popup-auto" aria-hidden="true" class="popup popup--auto">
+			<div class="popup__wrapper">
+				<div class="popup__content">
+					<button data-close type="button" class="popup__close"></button>
+					<div class="popup__text">
+						<div class="auto-content color-text--black-color">
+							<div data-gallery class="auto-content__image-block">
+								<a href="img/content-motorpool/bmw.webp" class="auto-content__link-image">
+									<img class="auto-content__image ibg" data-src="img/content-motorpool/bmw.webp" alt="BMW, 2024">
+								</a>
+							</div>
+							<div class="auto-content__block-text block-text-auto">
+								<h2 class="block-text-auto__title title">BMW, 2024</h2>
+								<div class="block-text-auto__block">
+									<div class="block-text-auto__discount">50% Reduziert</div>
+									<div class="block-text-auto__price"><span>500</span>.<span>-</span> fr./Tag.</div>
+								</div>
+								<div class="block-text-auto__characterization characterization-text-auto title-pangram">
+									<div class="characterization-text-auto__place characterization-text-auto__content">
+										<div class="characterization-text-auto__headline">Plätze:</div>
+										<div class="characterization-text-auto__text color-text--grey-color">5</div>
+									</div>
+									<div class="characterization-text-auto__power characterization-text-auto__content">
+										<div class="characterization-text-auto__headline">Leistung:</div>
+										<div class="characterization-text-auto__text color-text--grey-color">317</div>
+									</div>
+									<div class="characterization-text-auto__transmission characterization-text-auto__content">
+										<div class="characterization-text-auto__headline">Getriebe:</div>
+										<div class="characterization-text-auto__text color-text--grey-color">Automatik</div>
+									</div>
+									<div class="characterization-text-auto__shape characterization-text-auto__content">
+										<div class="characterization-text-auto__headline">Form:</div>
+										<div class="characterization-text-auto__text color-text--grey-color">SUV</div>
+									</div>
+									<div class="characterization-text-auto__fuel characterization-text-auto__content">
+										<div class="characterization-text-auto__headline">Treibstoff:</div>
+										<div class="characterization-text-auto__text color-text--grey-color">Diesel</div>
+									</div>
+								</div>
+							</div>
+							<div class="auto-content__button-block">
+								<button class="auto-content__button gold-button" id="pay-button">Buchen Sie</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<header data-lp data-scroll="120" data-scroll-show class="header">
+			<div class="header__container">
+				<a href="#" class="header__logo">
+					<div class="header__logo-main"><span>diz</span>mieten </div><span class="header__logo-span">autovermietungsdienst</span>
+				</a>
+				<div class="header__menu menu">
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="#" data-goto-header data-goto=".home-section" class="menu__link">Hauptseite</a></li>
+							<li class="menu__item"><a href="#" data-goto-header data-goto=".motor-pool" class="menu__link">Auto
+									auswählen</a></li>
+							<li class="menu__item"><a href="#" data-goto-header data-goto=".our-services" class="menu__link">Über
+									uns</a></li>
+							<li class="menu__item"><a href="#" data-goto-header data-goto=".stepsforrenting" class="menu__link">Bedingungen</a></li>
+						</ul>
+						<div class="menu__image-block"><img class="menu__image ibg" src="img/auto-1896070_1280.webp" alt="Image">
+						</div>
+					</nav>
+				</div>
+				<div data-da=".menu__body, 767.98" class="header__social social-header">
+					<ul class="social-header__list">
+						<li class="social-header__item"><a href="#" class="social-header__link _icon-telegram-social"></a></li>
+						<li class="social-header__item"><a href="#" class="social-header__link _icon-whatsapp-social"></a></li>
+					</ul>
+				</div>
+				<div class="header__actions actions-header">
+					<a href="#" data-popup="#popup-Book-a-call" class="actions-header__order-a-call button button--order-a-call _icon-phone-incoming-svgrepo-com">Anrufen</a>
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="page__home home-section">
+				<div class="home-section__container">
+					<div class="home-section__bg">
+						<img class="home-section__image ibg" data-src="img/alfa-romeo-7968027_1280.webp" alt="Image">
+					</div>
+					<div data-watch data-watch-once class="home-section__block-text">
+						<h1 class="home-section__title title title--main-big">Automietung in Schweiz</h1>
+						<p class="home-section__parahraph">Mieten Sie jetzt ein Auto mit oder ohne Fahrer</p>
+					</div>
+					<ul data-watch data-watch-once class="home-section__list">
+						<li class="home-section__item"><span>1</span>Große Fahrzeugflotte verfügbar</li>
+						<li class="home-section__item"><span>2</span>Fahrzeuglieferung an Ihren Standort</li>
+						<li class="home-section__item"><span>3</span>Rabatte für Stammkunden</li>
+						<li class="home-section__item"><span>4</span>Jede Zahlungsform</li>
+						<li class="home-section__item"><span>5</span>Günstige Preise</li>
+					</ul>
+				</div>
+			</section>
+			<section class="page__book-online book-online">
+				<div data-watch data-watch-once data-watch-threshold="0.3" class="book-online__container container-two color-text color-text--black-color">
+					<div class="book-online__block">
+						<h2 class="book-online__headline title title--less">Buchen Sie eine Anmietung online</h2>
+						<form action="files/sendmail/sendmail.php" method="POST" class="book-online__form form-book">
+							<div class="form-book__line-block form-book__line-block--main-block">
+								<div class="form-book__line-block form-book__line-block--date">
+									<div class="form-book__line-icon">
+										<input data-datepicker-1 type="text" name="date-start" id="date-01" autocomplete="off" placeholder="Anfang" class="form-book__input form-book__input--date input text-placeholder">
+										<label for="date-01" class="form-book__label-icon _icon-calendar"></label>
+									</div>
+									<div class="form-book__line-icon">
+										<input data-datepicker-2 type="text" name="date-end" id="date-02" autocomplete="off" placeholder="Beendigung" class="form-book__input form-book__input--date input text-placeholder">
+										<label for="date-02" class="form-book__label-icon _icon-calendar"></label>
+									</div>
+								</div>
+								<div class="form-book__line-checkbox">
+									<div class="form-book__line-block form-book__line-block--checkbox checkbox">
+										<input id="car-01" type="checkbox" name="car" data-error="Помилка" class="form-book__input checkbox__input form-book__input--chk" autocomplete="off" value="1">
+										<label for="car-01" class="form-book__label checkbox__label"><span class="checkbox__text text-placeholder">Prämie</span></label>
+									</div>
+									<div class="form-book__line-block form-book__line-block--checkbox checkbox">
+										<input id="car-02" type="checkbox" name="car" data-error="Помилка" class="form-book__input checkbox__input form-book__input--chk" autocomplete="off" value="1">
+										<label for="car-02" class="form-book__label checkbox__label"><span class="checkbox__text text-placeholder">Business</span></label>
+									</div>
+									<div class="form-book__line-block form-book__line-block--checkbox checkbox">
+										<input id="car-03" type="checkbox" name="car" data-error="Помилка" class="form-book__input checkbox__input form-book__input--chk" autocomplete="off" value="1">
+										<label for="car-03" class="form-book__label checkbox__label"><span class="checkbox__text text-placeholder">Offroad</span></label>
+									</div>
+									<div class="form-book__line-block form-book__line-block--checkbox checkbox">
+										<input id="car-04" type="checkbox" name="car" data-error="Помилка" class="form-book__input checkbox__input form-book__input--chk" autocomplete="off" value="1">
+										<label for="car-04" class="form-book__label checkbox__label"><span class="checkbox__text text-placeholder">Komfort</span></label>
+									</div>
+									<div class="form-book__line-block form-book__line-block--checkbox checkbox">
+										<input id="car-05" type="checkbox" name="car" data-error="Помилка" class="form-book__input checkbox__input form-book__input--chk" autocomplete="off" value="1">
+										<label for="car-05" class="form-book__label checkbox__label"><span class="checkbox__text text-placeholder">Sportwagen</span></label>
+									</div>
+									<div class="form-book__line-block form-book__line-block--checkbox checkbox">
+										<input id="car-06" type="checkbox" name="car" data-error="Помилка" class="form-book__input checkbox__input form-book__input--chk" autocomplete="off" value="1">
+										<label for="car-06" class="form-book__label checkbox__label"><span class="checkbox__text text-placeholder">Sport</span></label>
+									</div>
+								</div>
+							</div>
+							<button type="submit" class="form-book__button gold-button">Optionen finden</button>
+						</form>
+					</div>
+				</div>
+			</section>
+			<section class="page__motor-pool motor-pool color-text color-text--black-color">
+				<div class="motor-pool__container container-two">
+					<h2 data-watch data-watch-once class="motor-pool__headline title watcher-view-headline">Unser Fuhrpark
+					</h2>
+					<div data-tabs data-watch-once class="motor-pool__tabs tabs">
+						<nav data-watch data-watch-once data-tabs-titles class="motor-pool__navigation tabs__navigation">
+							<button type="button" class="motor-pool__title tabs__title _tab-active _icon-car-svgrepo-com">Alle
+								Autos</button>
+							<button type="button" class="motor-pool__title tabs__title _icon-car-svgrepo-com">Offroad</button>
+							<button type="button" class="motor-pool__title tabs__title _icon-car-svgrepo-com">Premium</button>
+							<button type="button" class="motor-pool__title tabs__title _icon-car-svgrepo-com">Business</button>
+							<button type="button" class="motor-pool__title tabs__title _icon-car-svgrepo-com">Sportwagen</button>
+							<button type="button" class="motor-pool__title tabs__title _icon-car-svgrepo-com">Komfort</button>
+						</nav>
+						<div data-tabs-body class="motor-pool__content">
+							<div data-showmore class="motor-pool__body tabs__body body-motorpool">
+								<div data-watch data-watch-once data-showmore-content="1550" class="body-motorpool__content motorpool-content">
+									<div class="motorpool-content__item">
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__link"><img class="motorpool-content__image ibg ibg--contain" data-src="img/content-motorpool/bmw.webp" alt="Image"></a>
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__title title-pangram">BMW,
+											2024</a>
+										<div class="motorpool-content__characterization">
+											<div class="motorpool-content__power _icon-horsepower">317 Pferdestärken</div>
+											<div class="motorpool-content__gasoline _icon-engine-motor-svgrepo-com">2,3 l/Benzin
+											</div>
+										</div>
+										<div class="motorpool-content__actions">
+											<div class="motorpool-content__price">von <span>40</span> Fr./Tag.</div>
+											<button data-popup="#popup-auto" class="motorpool-content__button gold-button">Buchen
+												Sie</button>
+										</div>
+									</div>
+									<div class="motorpool-content__item">
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__link"><img class="motorpool-content__image ibg ibg--contain" data-src="img/content-motorpool/bmw.webp" alt="Image"></a>
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__title title-pangram">BMW,
+											2024</a>
+										<div class="motorpool-content__characterization">
+											<div class="motorpool-content__power _icon-horsepower">317 Pferdestärken</div>
+											<div class="motorpool-content__gasoline _icon-engine-motor-svgrepo-com">2,3 l/Benzin
+											</div>
+										</div>
+										<div class="motorpool-content__actions">
+											<div class="motorpool-content__price">von <span>40</span> Fr./Tag.</div>
+											<button data-popup="#popup-auto" class="motorpool-content__button gold-button">Buchen
+												Sie</button>
+										</div>
+									</div>
+									<div class="motorpool-content__item">
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__link"><img class="motorpool-content__image ibg ibg--contain" data-src="img/content-motorpool/bmw.webp" alt="Image"></a>
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__title title-pangram">BMW,
+											2024</a>
+										<div class="motorpool-content__characterization">
+											<div class="motorpool-content__power _icon-horsepower">317 Pferdestärken</div>
+											<div class="motorpool-content__gasoline _icon-engine-motor-svgrepo-com">2,3 l/Benzin
+											</div>
+										</div>
+										<div class="motorpool-content__actions">
+											<div class="motorpool-content__price">von <span>40</span> Fr./Tag.</div>
+											<button data-popup="#popup-auto" class="motorpool-content__button gold-button">Buchen
+												Sie</button>
+										</div>
+									</div>
+									<div class="motorpool-content__item">
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__link"><img class="motorpool-content__image ibg ibg--contain" data-src="img/content-motorpool/bmw.webp" alt="Image"></a>
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__title title-pangram">BMW,
+											2024</a>
+										<div class="motorpool-content__characterization">
+											<div class="motorpool-content__power _icon-horsepower">317 Pferdestärken</div>
+											<div class="motorpool-content__gasoline _icon-engine-motor-svgrepo-com">2,3 l/Benzin
+											</div>
+										</div>
+										<div class="motorpool-content__actions">
+											<div class="motorpool-content__price">von <span>40</span> Fr./Tag.</div>
+											<button data-popup="#popup-auto" class="motorpool-content__button gold-button">Buchen
+												Sie</button>
+										</div>
+									</div>
+									<div class="motorpool-content__item">
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__link"><img class="motorpool-content__image ibg ibg--contain" data-src="img/content-motorpool/bmw.webp" alt="Image"></a>
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__title title-pangram">BMW,
+											2024</a>
+										<div class="motorpool-content__characterization">
+											<div class="motorpool-content__power _icon-horsepower">317 Pferdestärken</div>
+											<div class="motorpool-content__gasoline _icon-engine-motor-svgrepo-com">2,3 l/Benzin
+											</div>
+										</div>
+										<div class="motorpool-content__actions">
+											<div class="motorpool-content__price">von <span>40</span> Fr./Tag.</div>
+											<button data-popup="#popup-auto" class="motorpool-content__button gold-button">Buchen
+												Sie</button>
+										</div>
+									</div>
+									<div class="motorpool-content__item">
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__link"><img class="motorpool-content__image ibg ibg--contain" data-src="img/content-motorpool/bmw.webp" alt="Image"></a>
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__title title-pangram">BMW,
+											2024</a>
+										<div class="motorpool-content__characterization">
+											<div class="motorpool-content__power _icon-horsepower">317 Pferdestärken</div>
+											<div class="motorpool-content__gasoline _icon-engine-motor-svgrepo-com">2,3 l/Benzin
+											</div>
+										</div>
+										<div class="motorpool-content__actions">
+											<div class="motorpool-content__price">von <span>40</span> Fr./Tag.</div>
+											<button data-popup="#popup-auto" class="motorpool-content__button gold-button">Buchen
+												Sie</button>
+										</div>
+									</div>
+									<div class="motorpool-content__item">
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__link"><img class="motorpool-content__image ibg ibg--contain" data-src="img/content-motorpool/bmw.webp" alt="Image"></a>
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__title title-pangram">BMW,
+											2024</a>
+										<div class="motorpool-content__characterization">
+											<div class="motorpool-content__power _icon-horsepower">317 Pferdestärken</div>
+											<div class="motorpool-content__gasoline _icon-engine-motor-svgrepo-com">2,3 l/Benzin
+											</div>
+										</div>
+										<div class="motorpool-content__actions">
+											<div class="motorpool-content__price">von <span>40</span> Fr./Tag.</div>
+											<button data-popup="#popup-auto" class="motorpool-content__button gold-button">Buchen
+												Sie</button>
+										</div>
+									</div>
+									<div class="motorpool-content__item">
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__link"><img class="motorpool-content__image ibg ibg--contain" data-src="img/content-motorpool/bmw.webp" alt="Image"></a>
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__title title-pangram">BMW,
+											2024</a>
+										<div class="motorpool-content__characterization">
+											<div class="motorpool-content__power _icon-horsepower">317 Pferdestärken</div>
+											<div class="motorpool-content__gasoline _icon-engine-motor-svgrepo-com">2,3 l/Benzin
+											</div>
+										</div>
+										<div class="motorpool-content__actions">
+											<div class="motorpool-content__price">von <span>40</span> Fr./Tag.</div>
+											<button data-popup="#popup-auto" class="motorpool-content__button gold-button">Buchen
+												Sie</button>
+										</div>
+									</div>
+									<div class="motorpool-content__item">
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__link"><img class="motorpool-content__image ibg ibg--contain" data-src="img/content-motorpool/bmw.webp" alt="Image"></a>
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__title title-pangram">BMW,
+											2024</a>
+										<div class="motorpool-content__characterization">
+											<div class="motorpool-content__power _icon-horsepower">317 Pferdestärken</div>
+											<div class="motorpool-content__gasoline _icon-engine-motor-svgrepo-com">2,3 l/Benzin
+											</div>
+										</div>
+										<div class="motorpool-content__actions">
+											<div class="motorpool-content__price">von <span>40</span> Fr./Tag.</div>
+											<button data-popup="#popup-auto" class="motorpool-content__button gold-button">Buchen
+												Sie</button>
+										</div>
+									</div>
+									<div class="motorpool-content__item">
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__link"><img class="motorpool-content__image ibg ibg--contain" data-src="img/content-motorpool/bmw.webp" alt="Image"></a>
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__title title-pangram">BMW,
+											2024</a>
+										<div class="motorpool-content__characterization">
+											<div class="motorpool-content__power _icon-horsepower">317 Pferdestärken</div>
+											<div class="motorpool-content__gasoline _icon-engine-motor-svgrepo-com">2,3 l/Benzin
+											</div>
+										</div>
+										<div class="motorpool-content__actions">
+											<div class="motorpool-content__price">von <span>40</span> Fr./Tag.</div>
+											<button data-popup="#popup-auto" class="motorpool-content__button gold-button">Buchen
+												Sie</button>
+										</div>
+									</div>
+									<div class="motorpool-content__item">
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__link"><img class="motorpool-content__image ibg ibg--contain" data-src="img/content-motorpool/bmw.webp" alt="Image"></a>
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__title title-pangram">BMW,
+											2024</a>
+										<div class="motorpool-content__characterization">
+											<div class="motorpool-content__power _icon-horsepower">317 Pferdestärken</div>
+											<div class="motorpool-content__gasoline _icon-engine-motor-svgrepo-com">2,3 l/Benzin
+											</div>
+										</div>
+										<div class="motorpool-content__actions">
+											<div class="motorpool-content__price">von <span>40</span> Fr./Tag.</div>
+											<button data-popup="#popup-auto" class="motorpool-content__button gold-button">Buchen
+												Sie</button>
+										</div>
+									</div>
+									<div class="motorpool-content__item">
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__link"><img class="motorpool-content__image ibg ibg--contain" data-src="img/content-motorpool/bmw.webp" alt="Image"></a>
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__title title-pangram">BMW,
+											2024</a>
+										<div class="motorpool-content__characterization">
+											<div class="motorpool-content__power _icon-horsepower">317 Pferdestärken</div>
+											<div class="motorpool-content__gasoline _icon-engine-motor-svgrepo-com">2,3 l/Benzin
+											</div>
+										</div>
+										<div class="motorpool-content__actions">
+											<div class="motorpool-content__price">von <span>40</span> Fr./Tag.</div>
+											<button data-popup="#popup-auto" class="motorpool-content__button gold-button">Buchen
+												Sie</button>
+										</div>
+									</div>
+									<div class="motorpool-content__item">
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__link"><img class="motorpool-content__image ibg ibg--contain" data-src="img/content-motorpool/bmw.webp" alt="Image"></a>
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__title title-pangram">BMW,
+											2024</a>
+										<div class="motorpool-content__characterization">
+											<div class="motorpool-content__power _icon-horsepower">317 Pferdestärken</div>
+											<div class="motorpool-content__gasoline _icon-engine-motor-svgrepo-com">2,3 l/Benzin
+											</div>
+										</div>
+										<div class="motorpool-content__actions">
+											<div class="motorpool-content__price">von <span>40</span> Fr./Tag.</div>
+											<button data-popup="#popup-auto" class="motorpool-content__button gold-button">Buchen
+												Sie</button>
+										</div>
+									</div>
+									<div class="motorpool-content__item">
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__link"><img class="motorpool-content__image ibg ibg--contain" data-src="img/content-motorpool/bmw.webp" alt="Image"></a>
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__title title-pangram">BMW,
+											2024</a>
+										<div class="motorpool-content__characterization">
+											<div class="motorpool-content__power _icon-horsepower">317 Pferdestärken</div>
+											<div class="motorpool-content__gasoline _icon-engine-motor-svgrepo-com">2,3 l/Benzin
+											</div>
+										</div>
+										<div class="motorpool-content__actions">
+											<div class="motorpool-content__price">von <span>40</span> Fr./Tag.</div>
+											<button data-popup="#popup-auto" class="motorpool-content__button gold-button">Buchen
+												Sie</button>
+										</div>
+									</div>
+									<div class="motorpool-content__item">
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__link"><img class="motorpool-content__image ibg ibg--contain" data-src="img/content-motorpool/bmw.webp" alt="Image"></a>
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__title title-pangram">BMW,
+											2024</a>
+										<div class="motorpool-content__characterization">
+											<div class="motorpool-content__power _icon-horsepower">317 Pferdestärken</div>
+											<div class="motorpool-content__gasoline _icon-engine-motor-svgrepo-com">2,3 l/Benzin
+											</div>
+										</div>
+										<div class="motorpool-content__actions">
+											<div class="motorpool-content__price">von <span>40</span> Fr./Tag.</div>
+											<button data-popup="#popup-auto" class="motorpool-content__button gold-button">Buchen
+												Sie</button>
+										</div>
+									</div>
+									<div class="motorpool-content__item">
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__link"><img class="motorpool-content__image ibg ibg--contain" data-src="img/content-motorpool/bmw.webp" alt="Image"></a>
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__title title-pangram">BMW,
+											2024</a>
+										<div class="motorpool-content__characterization">
+											<div class="motorpool-content__power _icon-horsepower">317 Pferdestärken</div>
+											<div class="motorpool-content__gasoline _icon-engine-motor-svgrepo-com">2,3 l/Benzin
+											</div>
+										</div>
+										<div class="motorpool-content__actions">
+											<div class="motorpool-content__price">von <span>40</span> Fr./Tag.</div>
+											<button data-popup="#popup-auto" class="motorpool-content__button gold-button">Buchen
+												Sie</button>
+										</div>
+									</div>
+									<div class="motorpool-content__item">
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__link"><img class="motorpool-content__image ibg ibg--contain" data-src="img/content-motorpool/bmw.webp" alt="Image"></a>
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__title title-pangram">BMW,
+											2024</a>
+										<div class="motorpool-content__characterization">
+											<div class="motorpool-content__power _icon-horsepower">317 Pferdestärken</div>
+											<div class="motorpool-content__gasoline _icon-engine-motor-svgrepo-com">2,3 l/Benzin
+											</div>
+										</div>
+										<div class="motorpool-content__actions">
+											<div class="motorpool-content__price">von <span>40</span> Fr./Tag.</div>
+											<button data-popup="#popup-auto" class="motorpool-content__button gold-button">Buchen
+												Sie</button>
+										</div>
+									</div>
+									<div class="motorpool-content__item">
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__link"><img class="motorpool-content__image ibg ibg--contain" data-src="img/content-motorpool/bmw.webp" alt="Image"></a>
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__title title-pangram">BMW,
+											2024</a>
+										<div class="motorpool-content__characterization">
+											<div class="motorpool-content__power _icon-horsepower">317 Pferdestärken</div>
+											<div class="motorpool-content__gasoline _icon-engine-motor-svgrepo-com">2,3 l/Benzin
+											</div>
+										</div>
+										<div class="motorpool-content__actions">
+											<div class="motorpool-content__price">von <span>40</span> Fr./Tag.</div>
+											<button data-popup="#popup-auto" class="motorpool-content__button gold-button">Buchen
+												Sie</button>
+										</div>
+									</div>
+								</div>
+								<div class="body-motorpool__button-more">
+									<button hidden data-showmore-button type="button" class="body-motorpool__more button"><span>Alle
+											sehen</span></button>
+								</div>
+							</div>
+							<div class="motor-pool__body tabs__body body-motorpool">
+								<div data-watch data-watch-once class="body-motorpool__column motorpool-content">
+									<div class="motorpool-content__item">
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__link"><img class="motorpool-content__image ibg ibg--contain" data-src="img/content-motorpool/bmw.webp" alt="Image"></a>
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__title title-pangram">BMW,
+											2024</a>
+										<div class="motorpool-content__characterization">
+											<div class="motorpool-content__power _icon-horsepower">317 Pferdestärken</div>
+											<div class="motorpool-content__gasoline _icon-engine-motor-svgrepo-com">2,3 l/Benzin
+											</div>
+										</div>
+										<div class="motorpool-content__actions">
+											<div class="motorpool-content__price">von <span>40</span> Fr./Tag.</div>
+											<button data-popup="#popup-auto" class="motorpool-content__button gold-button">Buchen
+												Sie</button>
+										</div>
+									</div>
+									<div class="motorpool-content__item">
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__link"><img class="motorpool-content__image ibg ibg--contain" data-src="img/content-motorpool/bmw.webp" alt="Image"></a>
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__title title-pangram">BMW,
+											2024</a>
+										<div class="motorpool-content__characterization">
+											<div class="motorpool-content__power _icon-horsepower">317 Pferdestärken</div>
+											<div class="motorpool-content__gasoline _icon-engine-motor-svgrepo-com">2,3 l/Benzin
+											</div>
+										</div>
+										<div class="motorpool-content__actions">
+											<div class="motorpool-content__price">von <span>40</span> Fr./Tag.</div>
+											<button data-popup="#popup-auto" class="motorpool-content__button gold-button">Buchen
+												Sie</button>
+										</div>
+									</div>
+									<div class="motorpool-content__item">
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__link"><img class="motorpool-content__image ibg ibg--contain" data-src="img/content-motorpool/bmw.webp" alt="Image"></a>
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__title title-pangram">BMW,
+											2024</a>
+										<div class="motorpool-content__characterization">
+											<div class="motorpool-content__power _icon-horsepower">317 Pferdestärken</div>
+											<div class="motorpool-content__gasoline _icon-engine-motor-svgrepo-com">2,3 l/Benzin
+											</div>
+										</div>
+										<div class="motorpool-content__actions">
+											<div class="motorpool-content__price">von <span>40</span> Fr./Tag.</div>
+											<button data-popup="#popup-auto" class="motorpool-content__button gold-button">Buchen
+												Sie</button>
+										</div>
+									</div>
+									<div class="motorpool-content__item">
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__link"><img class="motorpool-content__image ibg ibg--contain" data-src="img/content-motorpool/bmw.webp" alt="Image"></a>
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__title title-pangram">BMW,
+											2024</a>
+										<div class="motorpool-content__characterization">
+											<div class="motorpool-content__power _icon-horsepower">317 Pferdestärken</div>
+											<div class="motorpool-content__gasoline _icon-engine-motor-svgrepo-com">2,3 l/Benzin
+											</div>
+										</div>
+										<div class="motorpool-content__actions">
+											<div class="motorpool-content__price">von <span>40</span> Fr./Tag.</div>
+											<button data-popup="#popup-auto" class="motorpool-content__button gold-button">Buchen
+												Sie</button>
+										</div>
+									</div>
+									<div class="motorpool-content__item">
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__link"><img class="motorpool-content__image ibg ibg--contain" data-src="img/content-motorpool/bmw.webp" alt="Image"></a>
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__title title-pangram">BMW,
+											2024</a>
+										<div class="motorpool-content__characterization">
+											<div class="motorpool-content__power _icon-horsepower">317 Pferdestärken</div>
+											<div class="motorpool-content__gasoline _icon-engine-motor-svgrepo-com">2,3 l/Benzin
+											</div>
+										</div>
+										<div class="motorpool-content__actions">
+											<div class="motorpool-content__price">von <span>40</span> Fr./Tag.</div>
+											<button data-popup="#popup-auto" class="motorpool-content__button gold-button">Buchen
+												Sie</button>
+										</div>
+									</div>
+									<div class="motorpool-content__item">
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__link"><img class="motorpool-content__image ibg ibg--contain" data-src="img/content-motorpool/bmw.webp" alt="Image"></a>
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__title title-pangram">BMW,
+											2024</a>
+										<div class="motorpool-content__characterization">
+											<div class="motorpool-content__power _icon-horsepower">317 Pferdestärken</div>
+											<div class="motorpool-content__gasoline _icon-engine-motor-svgrepo-com">2,3 l/Benzin
+											</div>
+										</div>
+										<div class="motorpool-content__actions">
+											<div class="motorpool-content__price">von <span>40</span> Fr./Tag.</div>
+											<button data-popup="#popup-auto" class="motorpool-content__button gold-button">Buchen
+												Sie</button>
+										</div>
+									</div>
+									<div class="motorpool-content__item">
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__link"><img class="motorpool-content__image ibg ibg--contain" data-src="img/content-motorpool/bmw.webp" alt="Image"></a>
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__title title-pangram">BMW,
+											2024</a>
+										<div class="motorpool-content__characterization">
+											<div class="motorpool-content__power _icon-horsepower">317 Pferdestärken</div>
+											<div class="motorpool-content__gasoline _icon-engine-motor-svgrepo-com">2,3 l/Benzin
+											</div>
+										</div>
+										<div class="motorpool-content__actions">
+											<div class="motorpool-content__price">von <span>40</span> Fr./Tag.</div>
+											<button data-popup="#popup-auto" class="motorpool-content__button gold-button">Buchen
+												Sie</button>
+										</div>
+									</div>
+									<div class="motorpool-content__item">
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__link"><img class="motorpool-content__image ibg ibg--contain" data-src="img/content-motorpool/bmw.webp" alt="Image"></a>
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__title title-pangram">BMW,
+											2024</a>
+										<div class="motorpool-content__characterization">
+											<div class="motorpool-content__power _icon-horsepower">317 Pferdestärken</div>
+											<div class="motorpool-content__gasoline _icon-engine-motor-svgrepo-com">2,3 l/Benzin
+											</div>
+										</div>
+										<div class="motorpool-content__actions">
+											<div class="motorpool-content__price">von <span>40</span> Fr./Tag.</div>
+											<button data-popup="#popup-auto" class="motorpool-content__button gold-button">Buchen
+												Sie</button>
+										</div>
+									</div>
+									<div class="motorpool-content__item">
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__link"><img class="motorpool-content__image ibg ibg--contain" data-src="img/content-motorpool/bmw.webp" alt="Image"></a>
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__title title-pangram">BMW,
+											2024</a>
+										<div class="motorpool-content__characterization">
+											<div class="motorpool-content__power _icon-horsepower">317 Pferdestärken</div>
+											<div class="motorpool-content__gasoline _icon-engine-motor-svgrepo-com">2,3 l/Benzin
+											</div>
+										</div>
+										<div class="motorpool-content__actions">
+											<div class="motorpool-content__price">von <span>40</span> Fr./Tag.</div>
+											<button data-popup="#popup-auto" class="motorpool-content__button gold-button">Buchen
+												Sie</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="motor-pool__body tabs__body body-motorpool">
+								<div data-watch data-watch-once class="body-motorpool__column motorpool-content">
+									<div class="motorpool-content__item">
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__link"><img class="motorpool-content__image ibg ibg--contain" data-src="img/content-motorpool/bmw.webp" alt="Image"></a>
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__title title-pangram">BMW,
+											2024</a>
+										<div class="motorpool-content__characterization">
+											<div class="motorpool-content__power _icon-horsepower">317 Pferdestärken</div>
+											<div class="motorpool-content__gasoline _icon-engine-motor-svgrepo-com">2,3 l/Benzin
+											</div>
+										</div>
+										<div class="motorpool-content__actions">
+											<div class="motorpool-content__price">von <span>40</span> Fr./Tag.</div>
+											<button data-popup="#popup-auto" class="motorpool-content__button gold-button">Buchen
+												Sie</button>
+										</div>
+									</div>
+									<div class="motorpool-content__item">
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__link"><img class="motorpool-content__image ibg ibg--contain" data-src="img/content-motorpool/bmw.webp" alt="Image"></a>
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__title title-pangram">BMW,
+											2024</a>
+										<div class="motorpool-content__characterization">
+											<div class="motorpool-content__power _icon-horsepower">317 Pferdestärken</div>
+											<div class="motorpool-content__gasoline _icon-engine-motor-svgrepo-com">2,3 l/Benzin
+											</div>
+										</div>
+										<div class="motorpool-content__actions">
+											<div class="motorpool-content__price">von <span>40</span> Fr./Tag.</div>
+											<button data-popup="#popup-auto" class="motorpool-content__button gold-button">Buchen
+												Sie</button>
+										</div>
+									</div>
+									<div class="motorpool-content__item">
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__link"><img class="motorpool-content__image ibg ibg--contain" data-src="img/content-motorpool/bmw.webp" alt="Image"></a>
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__title title-pangram">BMW,
+											2024</a>
+										<div class="motorpool-content__characterization">
+											<div class="motorpool-content__power _icon-horsepower">317 Pferdestärken</div>
+											<div class="motorpool-content__gasoline _icon-engine-motor-svgrepo-com">2,3 l/Benzin
+											</div>
+										</div>
+										<div class="motorpool-content__actions">
+											<div class="motorpool-content__price">von <span>40</span> Fr./Tag.</div>
+											<button data-popup="#popup-auto" class="motorpool-content__button gold-button">Buchen
+												Sie</button>
+										</div>
+									</div>
+									<div class="motorpool-content__item">
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__link"><img class="motorpool-content__image ibg ibg--contain" data-src="img/content-motorpool/bmw.webp" alt="Image"></a>
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__title title-pangram">BMW,
+											2024</a>
+										<div class="motorpool-content__characterization">
+											<div class="motorpool-content__power _icon-horsepower">317 Pferdestärken</div>
+											<div class="motorpool-content__gasoline _icon-engine-motor-svgrepo-com">2,3 l/Benzin
+											</div>
+										</div>
+										<div class="motorpool-content__actions">
+											<div class="motorpool-content__price">von <span>40</span> Fr./Tag.</div>
+											<button data-popup="#popup-auto" class="motorpool-content__button gold-button">Buchen
+												Sie</button>
+										</div>
+									</div>
+									<div class="motorpool-content__item">
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__link"><img class="motorpool-content__image ibg ibg--contain" data-src="img/content-motorpool/bmw.webp" alt="Image"></a>
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__title title-pangram">BMW,
+											2024</a>
+										<div class="motorpool-content__characterization">
+											<div class="motorpool-content__power _icon-horsepower">317 Pferdestärken</div>
+											<div class="motorpool-content__gasoline _icon-engine-motor-svgrepo-com">2,3 l/Benzin
+											</div>
+										</div>
+										<div class="motorpool-content__actions">
+											<div class="motorpool-content__price">von <span>40</span> Fr./Tag.</div>
+											<button data-popup="#popup-auto" class="motorpool-content__button gold-button">Buchen
+												Sie</button>
+										</div>
+									</div>
+									<div class="motorpool-content__item">
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__link"><img class="motorpool-content__image ibg ibg--contain" data-src="img/content-motorpool/bmw.webp" alt="Image"></a>
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__title title-pangram">BMW,
+											2024</a>
+										<div class="motorpool-content__characterization">
+											<div class="motorpool-content__power _icon-horsepower">317 Pferdestärken</div>
+											<div class="motorpool-content__gasoline _icon-engine-motor-svgrepo-com">2,3 l/Benzin
+											</div>
+										</div>
+										<div class="motorpool-content__actions">
+											<div class="motorpool-content__price">von <span>40</span> Fr./Tag.</div>
+											<button data-popup="#popup-auto" class="motorpool-content__button gold-button">Buchen
+												Sie</button>
+										</div>
+									</div>
+									<div class="motorpool-content__item">
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__link"><img class="motorpool-content__image ibg ibg--contain" data-src="img/content-motorpool/bmw.webp" alt="Image"></a>
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__title title-pangram">BMW,
+											2024</a>
+										<div class="motorpool-content__characterization">
+											<div class="motorpool-content__power _icon-horsepower">317 Pferdestärken</div>
+											<div class="motorpool-content__gasoline _icon-engine-motor-svgrepo-com">2,3 l/Benzin
+											</div>
+										</div>
+										<div class="motorpool-content__actions">
+											<div class="motorpool-content__price">von <span>40</span> Fr./Tag.</div>
+											<button data-popup="#popup-auto" class="motorpool-content__button gold-button">Buchen
+												Sie</button>
+										</div>
+									</div>
+									<div class="motorpool-content__item">
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__link"><img class="motorpool-content__image ibg ibg--contain" data-src="img/content-motorpool/bmw.webp" alt="Image"></a>
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__title title-pangram">BMW,
+											2024</a>
+										<div class="motorpool-content__characterization">
+											<div class="motorpool-content__power _icon-horsepower">317 Pferdestärken</div>
+											<div class="motorpool-content__gasoline _icon-engine-motor-svgrepo-com">2,3 l/Benzin
+											</div>
+										</div>
+										<div class="motorpool-content__actions">
+											<div class="motorpool-content__price">von <span>40</span> Fr./Tag.</div>
+											<button data-popup="#popup-auto" class="motorpool-content__button gold-button">Buchen
+												Sie</button>
+										</div>
+									</div>
+									<div class="motorpool-content__item">
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__link"><img class="motorpool-content__image ibg ibg--contain" data-src="img/content-motorpool/bmw.webp" alt="Image"></a>
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__title title-pangram">BMW,
+											2024</a>
+										<div class="motorpool-content__characterization">
+											<div class="motorpool-content__power _icon-horsepower">317 Pferdestärken</div>
+											<div class="motorpool-content__gasoline _icon-engine-motor-svgrepo-com">2,3 l/Benzin
+											</div>
+										</div>
+										<div class="motorpool-content__actions">
+											<div class="motorpool-content__price">von <span>40</span> Fr./Tag.</div>
+											<button data-popup="#popup-auto" class="motorpool-content__button gold-button">Buchen
+												Sie</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="motor-pool__body tabs__body body-motorpool">
+								<div data-watch data-watch-once class="body-motorpool__column motorpool-content">
+									<div class="motorpool-content__item">
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__link"><img class="motorpool-content__image ibg ibg--contain" data-src="img/content-motorpool/bmw.webp" alt="Image"></a>
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__title title-pangram">BMW,
+											2024</a>
+										<div class="motorpool-content__characterization">
+											<div class="motorpool-content__power _icon-horsepower">317 Pferdestärken</div>
+											<div class="motorpool-content__gasoline _icon-engine-motor-svgrepo-com">2,3 l/Benzin
+											</div>
+										</div>
+										<div class="motorpool-content__actions">
+											<div class="motorpool-content__price">von <span>40</span> Fr./Tag.</div>
+											<button data-popup="#popup-auto" class="motorpool-content__button gold-button">Buchen
+												Sie</button>
+										</div>
+									</div>
+									<div class="motorpool-content__item">
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__link"><img class="motorpool-content__image ibg ibg--contain" data-src="img/content-motorpool/bmw.webp" alt="Image"></a>
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__title title-pangram">BMW,
+											2024</a>
+										<div class="motorpool-content__characterization">
+											<div class="motorpool-content__power _icon-horsepower">317 Pferdestärken</div>
+											<div class="motorpool-content__gasoline _icon-engine-motor-svgrepo-com">2,3 l/Benzin
+											</div>
+										</div>
+										<div class="motorpool-content__actions">
+											<div class="motorpool-content__price">von <span>40</span> Fr./Tag.</div>
+											<button data-popup="#popup-auto" class="motorpool-content__button gold-button">Buchen
+												Sie</button>
+										</div>
+									</div>
+									<div class="motorpool-content__item">
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__link"><img class="motorpool-content__image ibg ibg--contain" data-src="img/content-motorpool/bmw.webp" alt="Image"></a>
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__title title-pangram">BMW,
+											2024</a>
+										<div class="motorpool-content__characterization">
+											<div class="motorpool-content__power _icon-horsepower">317 Pferdestärken</div>
+											<div class="motorpool-content__gasoline _icon-engine-motor-svgrepo-com">2,3 l/Benzin
+											</div>
+										</div>
+										<div class="motorpool-content__actions">
+											<div class="motorpool-content__price">von <span>40</span> Fr./Tag.</div>
+											<button data-popup="#popup-auto" class="motorpool-content__button gold-button">Buchen
+												Sie</button>
+										</div>
+									</div>
+									<div class="motorpool-content__item">
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__link"><img class="motorpool-content__image ibg ibg--contain" data-src="img/content-motorpool/bmw.webp" alt="Image"></a>
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__title title-pangram">BMW,
+											2024</a>
+										<div class="motorpool-content__characterization">
+											<div class="motorpool-content__power _icon-horsepower">317 Pferdestärken</div>
+											<div class="motorpool-content__gasoline _icon-engine-motor-svgrepo-com">2,3 l/Benzin
+											</div>
+										</div>
+										<div class="motorpool-content__actions">
+											<div class="motorpool-content__price">von <span>40</span> Fr./Tag.</div>
+											<button data-popup="#popup-auto" class="motorpool-content__button gold-button">Buchen
+												Sie</button>
+										</div>
+									</div>
+									<div class="motorpool-content__item">
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__link"><img class="motorpool-content__image ibg ibg--contain" data-src="img/content-motorpool/bmw.webp" alt="Image"></a>
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__title title-pangram">BMW,
+											2024</a>
+										<div class="motorpool-content__characterization">
+											<div class="motorpool-content__power _icon-horsepower">317 Pferdestärken</div>
+											<div class="motorpool-content__gasoline _icon-engine-motor-svgrepo-com">2,3 l/Benzin
+											</div>
+										</div>
+										<div class="motorpool-content__actions">
+											<div class="motorpool-content__price">von <span>40</span> Fr./Tag.</div>
+											<button data-popup="#popup-auto" class="motorpool-content__button gold-button">Buchen
+												Sie</button>
+										</div>
+									</div>
+									<div class="motorpool-content__item">
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__link"><img class="motorpool-content__image ibg ibg--contain" data-src="img/content-motorpool/bmw.webp" alt="Image"></a>
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__title title-pangram">BMW,
+											2024</a>
+										<div class="motorpool-content__characterization">
+											<div class="motorpool-content__power _icon-horsepower">317 Pferdestärken</div>
+											<div class="motorpool-content__gasoline _icon-engine-motor-svgrepo-com">2,3 l/Benzin
+											</div>
+										</div>
+										<div class="motorpool-content__actions">
+											<div class="motorpool-content__price">von <span>40</span> Fr./Tag.</div>
+											<button data-popup="#popup-auto" class="motorpool-content__button gold-button">Buchen
+												Sie</button>
+										</div>
+									</div>
+									<div class="motorpool-content__item">
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__link"><img class="motorpool-content__image ibg ibg--contain" data-src="img/content-motorpool/bmw.webp" alt="Image"></a>
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__title title-pangram">BMW,
+											2024</a>
+										<div class="motorpool-content__characterization">
+											<div class="motorpool-content__power _icon-horsepower">317 Pferdestärken</div>
+											<div class="motorpool-content__gasoline _icon-engine-motor-svgrepo-com">2,3 l/Benzin
+											</div>
+										</div>
+										<div class="motorpool-content__actions">
+											<div class="motorpool-content__price">von <span>40</span> Fr./Tag.</div>
+											<button data-popup="#popup-auto" class="motorpool-content__button gold-button">Buchen
+												Sie</button>
+										</div>
+									</div>
+									<div class="motorpool-content__item">
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__link"><img class="motorpool-content__image ibg ibg--contain" data-src="img/content-motorpool/bmw.webp" alt="Image"></a>
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__title title-pangram">BMW,
+											2024</a>
+										<div class="motorpool-content__characterization">
+											<div class="motorpool-content__power _icon-horsepower">317 Pferdestärken</div>
+											<div class="motorpool-content__gasoline _icon-engine-motor-svgrepo-com">2,3 l/Benzin
+											</div>
+										</div>
+										<div class="motorpool-content__actions">
+											<div class="motorpool-content__price">von <span>40</span> Fr./Tag.</div>
+											<button data-popup="#popup-auto" class="motorpool-content__button gold-button">Buchen
+												Sie</button>
+										</div>
+									</div>
+									<div class="motorpool-content__item">
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__link"><img class="motorpool-content__image ibg ibg--contain" data-src="img/content-motorpool/bmw.webp" alt="Image"></a>
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__title title-pangram">BMW,
+											2024</a>
+										<div class="motorpool-content__characterization">
+											<div class="motorpool-content__power _icon-horsepower">317 Pferdestärken</div>
+											<div class="motorpool-content__gasoline _icon-engine-motor-svgrepo-com">2,3 l/Benzin
+											</div>
+										</div>
+										<div class="motorpool-content__actions">
+											<div class="motorpool-content__price">von <span>40</span> Fr./Tag.</div>
+											<button data-popup="#popup-auto" class="motorpool-content__button gold-button">Buchen
+												Sie</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="motor-pool__body tabs__body body-motorpool">
+								<div data-watch data-watch-once class="body-motorpool__column motorpool-content">
+									<div class="motorpool-content__item">
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__link"><img class="motorpool-content__image ibg ibg--contain" data-src="img/content-motorpool/bmw.webp" alt="Image"></a>
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__title title-pangram">BMW,
+											2024</a>
+										<div class="motorpool-content__characterization">
+											<div class="motorpool-content__power _icon-horsepower">317 Pferdestärken</div>
+											<div class="motorpool-content__gasoline _icon-engine-motor-svgrepo-com">2,3 l/Benzin
+											</div>
+										</div>
+										<div class="motorpool-content__actions">
+											<div class="motorpool-content__price">von <span>40</span> Fr./Tag.</div>
+											<button data-popup="#popup-auto" class="motorpool-content__button gold-button">Buchen
+												Sie</button>
+										</div>
+									</div>
+									<div class="motorpool-content__item">
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__link"><img class="motorpool-content__image ibg ibg--contain" data-src="img/content-motorpool/bmw.webp" alt="Image"></a>
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__title title-pangram">BMW,
+											2024</a>
+										<div class="motorpool-content__characterization">
+											<div class="motorpool-content__power _icon-horsepower">317 Pferdestärken</div>
+											<div class="motorpool-content__gasoline _icon-engine-motor-svgrepo-com">2,3 l/Benzin
+											</div>
+										</div>
+										<div class="motorpool-content__actions">
+											<div class="motorpool-content__price">von <span>40</span> Fr./Tag.</div>
+											<button data-popup="#popup-auto" class="motorpool-content__button gold-button">Buchen
+												Sie</button>
+										</div>
+									</div>
+									<div class="motorpool-content__item">
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__link"><img class="motorpool-content__image ibg ibg--contain" data-src="img/content-motorpool/bmw.webp" alt="Image"></a>
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__title title-pangram">BMW,
+											2024</a>
+										<div class="motorpool-content__characterization">
+											<div class="motorpool-content__power _icon-horsepower">317 Pferdestärken</div>
+											<div class="motorpool-content__gasoline _icon-engine-motor-svgrepo-com">2,3 l/Benzin
+											</div>
+										</div>
+										<div class="motorpool-content__actions">
+											<div class="motorpool-content__price">von <span>40</span> Fr./Tag.</div>
+											<button data-popup="#popup-auto" class="motorpool-content__button gold-button">Buchen
+												Sie</button>
+										</div>
+									</div>
+									<div class="motorpool-content__item">
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__link"><img class="motorpool-content__image ibg ibg--contain" data-src="img/content-motorpool/bmw.webp" alt="Image"></a>
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__title title-pangram">BMW,
+											2024</a>
+										<div class="motorpool-content__characterization">
+											<div class="motorpool-content__power _icon-horsepower">317 Pferdestärken</div>
+											<div class="motorpool-content__gasoline _icon-engine-motor-svgrepo-com">2,3 l/Benzin
+											</div>
+										</div>
+										<div class="motorpool-content__actions">
+											<div class="motorpool-content__price">von <span>40</span> Fr./Tag.</div>
+											<button data-popup="#popup-auto" class="motorpool-content__button gold-button">Buchen
+												Sie</button>
+										</div>
+									</div>
+									<div class="motorpool-content__item">
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__link"><img class="motorpool-content__image ibg ibg--contain" data-src="img/content-motorpool/bmw.webp" alt="Image"></a>
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__title title-pangram">BMW,
+											2024</a>
+										<div class="motorpool-content__characterization">
+											<div class="motorpool-content__power _icon-horsepower">317 Pferdestärken</div>
+											<div class="motorpool-content__gasoline _icon-engine-motor-svgrepo-com">2,3 l/Benzin
+											</div>
+										</div>
+										<div class="motorpool-content__actions">
+											<div class="motorpool-content__price">von <span>40</span> Fr./Tag.</div>
+											<button data-popup="#popup-auto" class="motorpool-content__button gold-button">Buchen
+												Sie</button>
+										</div>
+									</div>
+									<div class="motorpool-content__item">
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__link"><img class="motorpool-content__image ibg ibg--contain" data-src="img/content-motorpool/bmw.webp" alt="Image"></a>
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__title title-pangram">BMW,
+											2024</a>
+										<div class="motorpool-content__characterization">
+											<div class="motorpool-content__power _icon-horsepower">317 Pferdestärken</div>
+											<div class="motorpool-content__gasoline _icon-engine-motor-svgrepo-com">2,3 l/Benzin
+											</div>
+										</div>
+										<div class="motorpool-content__actions">
+											<div class="motorpool-content__price">von <span>40</span> Fr./Tag.</div>
+											<button data-popup="#popup-auto" class="motorpool-content__button gold-button">Buchen
+												Sie</button>
+										</div>
+									</div>
+									<div class="motorpool-content__item">
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__link"><img class="motorpool-content__image ibg ibg--contain" data-src="img/content-motorpool/bmw.webp" alt="Image"></a>
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__title title-pangram">BMW,
+											2024</a>
+										<div class="motorpool-content__characterization">
+											<div class="motorpool-content__power _icon-horsepower">317 Pferdestärken</div>
+											<div class="motorpool-content__gasoline _icon-engine-motor-svgrepo-com">2,3 l/Benzin
+											</div>
+										</div>
+										<div class="motorpool-content__actions">
+											<div class="motorpool-content__price">von <span>40</span> Fr./Tag.</div>
+											<button data-popup="#popup-auto" class="motorpool-content__button gold-button">Buchen
+												Sie</button>
+										</div>
+									</div>
+									<div class="motorpool-content__item">
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__link"><img class="motorpool-content__image ibg ibg--contain" data-src="img/content-motorpool/bmw.webp" alt="Image"></a>
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__title title-pangram">BMW,
+											2024</a>
+										<div class="motorpool-content__characterization">
+											<div class="motorpool-content__power _icon-horsepower">317 Pferdestärken</div>
+											<div class="motorpool-content__gasoline _icon-engine-motor-svgrepo-com">2,3 l/Benzin
+											</div>
+										</div>
+										<div class="motorpool-content__actions">
+											<div class="motorpool-content__price">von <span>40</span> Fr./Tag.</div>
+											<button data-popup="#popup-auto" class="motorpool-content__button gold-button">Buchen
+												Sie</button>
+										</div>
+									</div>
+									<div class="motorpool-content__item">
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__link"><img class="motorpool-content__image ibg ibg--contain" data-src="img/content-motorpool/bmw.webp" alt="Image"></a>
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__title title-pangram">BMW,
+											2024</a>
+										<div class="motorpool-content__characterization">
+											<div class="motorpool-content__power _icon-horsepower">317 Pferdestärken</div>
+											<div class="motorpool-content__gasoline _icon-engine-motor-svgrepo-com">2,3 l/Benzin
+											</div>
+										</div>
+										<div class="motorpool-content__actions">
+											<div class="motorpool-content__price">von <span>40</span> Fr./Tag.</div>
+											<button data-popup="#popup-auto" class="motorpool-content__button gold-button">Buchen
+												Sie</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="motor-pool__body tabs__body body-motorpool">
+								<div data-watch data-watch-once class="body-motorpool__column motorpool-content">
+									<div class="motorpool-content__item">
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__link"><img class="motorpool-content__image ibg ibg--contain" data-src="img/content-motorpool/bmw.webp" alt="Image"></a>
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__title title-pangram">BMW,
+											2024</a>
+										<div class="motorpool-content__characterization">
+											<div class="motorpool-content__power _icon-horsepower">317 Pferdestärken</div>
+											<div class="motorpool-content__gasoline _icon-engine-motor-svgrepo-com">2,3 l/Benzin
+											</div>
+										</div>
+										<div class="motorpool-content__actions">
+											<div class="motorpool-content__price">von <span>40</span> Fr./Tag.</div>
+											<button data-popup="#popup-auto" class="motorpool-content__button gold-button">Buchen
+												Sie</button>
+										</div>
+									</div>
+									<div class="motorpool-content__item">
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__link"><img class="motorpool-content__image ibg ibg--contain" data-src="img/content-motorpool/bmw.webp" alt="Image"></a>
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__title title-pangram">BMW,
+											2024</a>
+										<div class="motorpool-content__characterization">
+											<div class="motorpool-content__power _icon-horsepower">317 Pferdestärken</div>
+											<div class="motorpool-content__gasoline _icon-engine-motor-svgrepo-com">2,3 l/Benzin
+											</div>
+										</div>
+										<div class="motorpool-content__actions">
+											<div class="motorpool-content__price">von <span>40</span> Fr./Tag.</div>
+											<button data-popup="#popup-auto" class="motorpool-content__button gold-button">Buchen
+												Sie</button>
+										</div>
+									</div>
+									<div class="motorpool-content__item">
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__link"><img class="motorpool-content__image ibg ibg--contain" data-src="img/content-motorpool/bmw.webp" alt="Image"></a>
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__title title-pangram">BMW,
+											2024</a>
+										<div class="motorpool-content__characterization">
+											<div class="motorpool-content__power _icon-horsepower">317 Pferdestärken</div>
+											<div class="motorpool-content__gasoline _icon-engine-motor-svgrepo-com">2,3 l/Benzin
+											</div>
+										</div>
+										<div class="motorpool-content__actions">
+											<div class="motorpool-content__price">von <span>40</span> Fr./Tag.</div>
+											<button data-popup="#popup-auto" class="motorpool-content__button gold-button">Buchen
+												Sie</button>
+										</div>
+									</div>
+									<div class="motorpool-content__item">
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__link"><img class="motorpool-content__image ibg ibg--contain" data-src="img/content-motorpool/bmw.webp" alt="Image"></a>
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__title title-pangram">BMW,
+											2024</a>
+										<div class="motorpool-content__characterization">
+											<div class="motorpool-content__power _icon-horsepower">317 Pferdestärken</div>
+											<div class="motorpool-content__gasoline _icon-engine-motor-svgrepo-com">2,3 l/Benzin
+											</div>
+										</div>
+										<div class="motorpool-content__actions">
+											<div class="motorpool-content__price">von <span>40</span> Fr./Tag.</div>
+											<button data-popup="#popup-auto" class="motorpool-content__button gold-button">Buchen
+												Sie</button>
+										</div>
+									</div>
+									<div class="motorpool-content__item">
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__link"><img class="motorpool-content__image ibg ibg--contain" data-src="img/content-motorpool/bmw.webp" alt="Image"></a>
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__title title-pangram">BMW,
+											2024</a>
+										<div class="motorpool-content__characterization">
+											<div class="motorpool-content__power _icon-horsepower">317 Pferdestärken</div>
+											<div class="motorpool-content__gasoline _icon-engine-motor-svgrepo-com">2,3 l/Benzin
+											</div>
+										</div>
+										<div class="motorpool-content__actions">
+											<div class="motorpool-content__price">von <span>40</span> Fr./Tag.</div>
+											<button data-popup="#popup-auto" class="motorpool-content__button gold-button">Buchen
+												Sie</button>
+										</div>
+									</div>
+									<div class="motorpool-content__item">
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__link"><img class="motorpool-content__image ibg ibg--contain" data-src="img/content-motorpool/bmw.webp" alt="Image"></a>
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__title title-pangram">BMW,
+											2024</a>
+										<div class="motorpool-content__characterization">
+											<div class="motorpool-content__power _icon-horsepower">317 Pferdestärken</div>
+											<div class="motorpool-content__gasoline _icon-engine-motor-svgrepo-com">2,3 l/Benzin
+											</div>
+										</div>
+										<div class="motorpool-content__actions">
+											<div class="motorpool-content__price">von <span>40</span> Fr./Tag.</div>
+											<button data-popup="#popup-auto" class="motorpool-content__button gold-button">Buchen
+												Sie</button>
+										</div>
+									</div>
+									<div class="motorpool-content__item">
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__link"><img class="motorpool-content__image ibg ibg--contain" data-src="img/content-motorpool/bmw.webp" alt="Image"></a>
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__title title-pangram">BMW,
+											2024</a>
+										<div class="motorpool-content__characterization">
+											<div class="motorpool-content__power _icon-horsepower">317 Pferdestärken</div>
+											<div class="motorpool-content__gasoline _icon-engine-motor-svgrepo-com">2,3 l/Benzin
+											</div>
+										</div>
+										<div class="motorpool-content__actions">
+											<div class="motorpool-content__price">von <span>40</span> Fr./Tag.</div>
+											<button data-popup="#popup-auto" class="motorpool-content__button gold-button">Buchen
+												Sie</button>
+										</div>
+									</div>
+									<div class="motorpool-content__item">
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__link"><img class="motorpool-content__image ibg ibg--contain" data-src="img/content-motorpool/bmw.webp" alt="Image"></a>
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__title title-pangram">BMW,
+											2024</a>
+										<div class="motorpool-content__characterization">
+											<div class="motorpool-content__power _icon-horsepower">317 Pferdestärken</div>
+											<div class="motorpool-content__gasoline _icon-engine-motor-svgrepo-com">2,3 l/Benzin
+											</div>
+										</div>
+										<div class="motorpool-content__actions">
+											<div class="motorpool-content__price">von <span>40</span> Fr./Tag.</div>
+											<button data-popup="#popup-auto" class="motorpool-content__button gold-button">Buchen
+												Sie</button>
+										</div>
+									</div>
+									<div class="motorpool-content__item">
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__link"><img class="motorpool-content__image ibg ibg--contain" data-src="img/content-motorpool/bmw.webp" alt="Image"></a>
+										<a href="#" data-popup="#popup-auto" class="motorpool-content__title title-pangram">BMW,
+											2024</a>
+										<div class="motorpool-content__characterization">
+											<div class="motorpool-content__power _icon-horsepower">317 Pferdestärken</div>
+											<div class="motorpool-content__gasoline _icon-engine-motor-svgrepo-com">2,3 l/Benzin
+											</div>
+										</div>
+										<div class="motorpool-content__actions">
+											<div class="motorpool-content__price">von <span>40</span> Fr./Tag.</div>
+											<button data-popup="#popup-auto" class="motorpool-content__button gold-button">Buchen
+												Sie</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="motor-pool__block-text motor-text">
+						<h2 class="motor-text__headline text">Zürich ist bekannt für seine prächtigen Alleen, luxuriösen
+							Einkaufszentren und beeindruckende Architektur. In einer solchen Umgebung ist es nicht
+							überraschend, dass die Nachfrage nach der Miete von Luxusautos in Zürich von Jahr zu Jahr steigt.
+						</h2>
+						<p class="motor-text__parahraph text text--small">
+							Diese luxuriösen Fahrzeuge sind zu einem unverzichtbaren Teil des Lebens erfolgreicher
+							Geschäftsleute, Showbusiness-Stars und all jener geworden, die das einzigartige Gefühl von Komfort
+							und Kraft erleben möchten.</p>
+					</div>
+				</div>
+			</section>
+			<section class="page__rent-now rent-now">
+				<div class="rent-now__container">
+					<h2 data-watch data-watch-once class="rent-now__headline title watcher-view-headline">Mieten Sie jetzt
+						ein Auto!</h2>
+					<div class="rent-now__bg">
+						<video playsinline autoplay muted loop>
+							<source src="files/videos/bg.mp4" type="video/mp4">
+							Your browser does not support the video tag.
+						</video>
+						<!-- <img class="rent-now__image ibg" data-src="img/" alt="Image"> -->
+					</div>
+					<div class="rent-now__content container-two">
+						<div data-watch data-watch-once class="rent-now__left left-rent">
+							<p class="left-rent__parahraph text">Dizmieten in der Schweiz bietet eine große Auswahl an Modellen
+								führender Hersteller wie Mercedes, BMW und Audi. Kunden können zwischen Sportwagen, luxuriösen
+								Limousinen oder exklusiven SUVs wählen, um den Komfort und die Ästhetik dieser herausragenden
+								Fahrzeuge zu genießen.</p>
+							<div class="left-rent__rental-services text text--small">
+								Dank der Mietdienste kann jeder für ein paar Tage oder sogar Stunden das Gefühl genießen,
+								Besitzer
+								eines solchen Autos zu sein, ohne es kaufen oder warten zu müssen.</div>
+						</div>
+						<form data-watch data-watch-once action="files/sendmail/sendmail.php" method="POST" class="rent-now__right booking-form">
+							<div class="booking-form__line">
+								<input type="text" name="form[name]" placeholder="Name" class="booking-form__input input text-placeholder">
+								<input type="tel" name="form[tel]" placeholder="+41 (79) 632-51-36" class="booking-form__input input text-placeholder">
+							</div>
+							<div class="booking-form__button-block"><button type="submit" class="booking-form__button button">Send</button></div>
+							<div class="booking-form__checkbox checkbox">
+								<input id="privacy-1" class="booking-form__input booking-form__input--chk checkbox__input" type="checkbox" value="1" name="form[]">
+								<label for="privacy-1" class="booking-form__label checkbox__label"><span class="booking-form__text checkbox__text">Mit dem Absenden des Formulars erkläre ich mich
+										<a href="#" class="booking-form__link">den Richtlinien zur Verarbeitung personenbezogener
+											Daten</a></span></label>
+							</div>
+						</form>
+					</div>
+				</div>
+			</section>
+			<section class="page__premium-rental premium-rental color-text color-text--black-color">
+				<div class="premium-rental__container container-two">
+					<h2 data-watch data-watch-once class="premium-rental__headline title watcher-view-headline">
+						Premium-Mietwagen für
+						Veranstaltungen</h2>
+					<div data-watch data-watch-once class="premium-rental__body body-premium">
+						<div class="body-premium__item">
+							<div class="body-premium__link-block">
+								<a href="#" class="body-premium__link"><img class="body-premium__image ibg ibg--contain" data-src="img/premium-rental/car-wedding-bride.webp" alt="Image"></a>
+							</div>
+							<div class="body-premium__content">
+								<div class="body-premium__block-text">
+									<a href="#" class="body-premium__headline title-pangram">Autovermietung für Hochzeiten</a>
+									<p class="body-premium__parahraph title-pangram title-pangram--text-small">Wir bieten
+										Premium-Hochzeitsautovermietung mit Chauffeur
+										für Hochzeiten</p>
+								</div>
+							</div>
+						</div>
+						<div class="body-premium__item">
+							<div class="body-premium__link-block">
+								<a href="#" class="body-premium__link"><img class="body-premium__image ibg ibg--contain" data-src="img/premium-rental/mercedes-amg-gt.webp" alt="Image"></a>
+							</div>
+							<div class="body-premium__content">
+								<div class="body-premium__block-text">
+									<a href="#" class="body-premium__headline title-pangram">Ein Auto für Fotoshootings
+										mieten</a>
+									<p class="body-premium__parahraph title-pangram title-pangram--text-small">Wir bieten
+										Premium-Autovermietung für Fotoshootings oder
+										Videodrehs</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__stepsforrenting stepsforrenting color-text color-text--black-color">
+				<div class="stepsforrenting__container">
+					<h2 data-watch data-watch-once class="stepsforrenting__headline title watcher-view-headline">3 Schritte
+						zum Mieten eines
+						Autos</h2>
+					<div data-watch data-watch-once class="stepsforrenting__content container-two content-stepsforrenting">
+						<div class="content-stepsforrenting__item">
+							<div class="content-stepsforrenting__icon-block">
+								<div class="content-stepsforrenting__icon _icon-request-refund-svgrepo-com">
+									<span class="content-stepsforrenting__icon-nummer">1</span>
+									<span class="content-stepsforrenting__icon-circle"></span>
+								</div>
+							</div>
+							<div class="content-stepsforrenting__block-text">
+								<h3 class="content-stepsforrenting__title title-pangram">Bewerben Sie sich unter .</h3>
+								<p class="content-stepsforrenting__parahtaph title-pangram title-pangram--text-small">Sie
+									stellen einen Antrag auf der Website, nehmen
+									telefonisch oder per Boten Kontakt auf und buchen ein Auto</p>
+							</div>
+						</div>
+						<div class="content-stepsforrenting__item">
+							<div class="content-stepsforrenting__icon-block">
+								<div class="content-stepsforrenting__icon _icon-handshake-deal-svgrepo-com">
+									<span class="content-stepsforrenting__icon-nummer">2</span>
+									<span class="content-stepsforrenting__icon-circle"></span>
+								</div>
+							</div>
+							<div class="content-stepsforrenting__block-text">
+								<h3 class="content-stepsforrenting__title title-pangram">Der Vertrag</h3>
+								<p class="content-stepsforrenting__parahtaph title-pangram title-pangram--text-small">Sie
+									unterschreiben den Mietvertrag, bezahlen die
+									Zahlung und die Kaution</p>
+							</div>
+						</div>
+						<div class="content-stepsforrenting__item">
+							<div class="content-stepsforrenting__icon-block">
+								<div class="content-stepsforrenting__icon _icon-house-keys-svgrepo-com">
+									<span class="content-stepsforrenting__icon-nummer">3</span>
+									<span class="content-stepsforrenting__icon-circle"></span>
+								</div>
+							</div>
+							<div class="content-stepsforrenting__block-text">
+								<h3 class="content-stepsforrenting__title title-pangram">Empfangsschein</h3>
+								<p class="content-stepsforrenting__parahtaph title-pangram title-pangram--text-small">Holen Sie
+									das Auto in unserem Autohaus ab oder wir
+									liefern es in die ganze Schweiz</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__specialsandpromotions specialsandpromotions">
+				<div class="specialsandpromotions__container">
+					<div class="specialsandpromotions__bg">
+						<img class="specialsandpromotions__image ibg" data-src="img/specialsandpromotions/specialsandpromotions-bg.webp" alt="Image">
+					</div>
+					<div class="specialsandpromotions__content container-two content-specialsandpromotions">
+						<!-- Оболонка слайдера -->
+						<div class="content-specialsandpromotions__slider swiper">
+							<!-- Частина слайдера, що рухається -->
+							<div class="content-specialsandpromotions__wrapper swiper-wrapper">
+								<!-- Слайд -->
+								<div class="content-specialsandpromotions__slide slide-content-specialsandpromotions swiper-slide">
+									<h2 class="slide-content-specialsandpromotions__headline title">Rabatte und Sonderangebote
+									</h2>
+									<div class="slide-content-specialsandpromotions__content">
+										<div class="slide-content-specialsandpromotions__block-text">
+											<p class="slide-content-specialsandpromotions__parahraph text">Luxusautovermietung in
+												Uzwil
+												bietet
+												die Möglichkeit, Träume wahr werden zu lassen und ein unvergessliches Erlebnis zu
+												schaffen. Ob es sich um eine exklusive Hochzeit, eine beeindruckende Geschäftsreise
+												oder
+												einfach nur um den Wunsch handelt, den Luxus und die Eleganz eines Premium-Autos zu
+												erleben, dieser Service öffnet die Türen zu einer Welt voller Stil und Komfort. </p>
+											<p class="slide-content-specialsandpromotions__text text text--small">Ein Luxusauto in
+												Uzwil zu mieten ist
+												eine Gelegenheit, sich ein wenig Luxus zu leisten und unvergessliche Momente zu
+												schaffen,
+												an die man sich noch lange erinnern wird.</p>
+										</div>
+										<div class="slide-content-specialsandpromotions__block color-text color-text--black-color">
+											<div class="slide-content-specialsandpromotions__image-block">
+												<img class="slide-content-specialsandpromotions__image ibg" data-src="img/specialsandpromotions/specialsandpromotions-1.webp" alt="Image">
+												<div class="slide-content-specialsandpromotions__icon _icon-steering-wheel-car-svgrepo-com">
+												</div>
+											</div>
+											<div class="slide-content-specialsandpromotions__discount discount-slide">
+												<h3 class="discount-slide__title title-pangram">Rabatte für Stammkunden</h3>
+												<p class="discount-slide__parahraph title-pangram--text-small">Unseren Stammkunden
+													bieten wir Rabatte von bis
+													zu
+													15%
+													für wiederholte Anmietungen.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="content-specialsandpromotions__slide slide-content-specialsandpromotions swiper-slide">
+									<h2 class="slide-content-specialsandpromotions__headline title">Rabatte und Sonderangebote
+									</h2>
+									<div class="slide-content-specialsandpromotions__content">
+										<div class="slide-content-specialsandpromotions__block-text">
+											<p class="slide-content-specialsandpromotions__parahraph text">Luxusautovermietung in
+												Uzwil
+												bietet
+												die Möglichkeit, Träume wahr werden zu lassen und ein unvergessliches Erlebnis zu
+												schaffen. Ob es sich um eine exklusive Hochzeit, eine beeindruckende Geschäftsreise
+												oder
+												einfach nur um den Wunsch handelt, den Luxus und die Eleganz eines Premium-Autos zu
+												erleben, dieser Service öffnet die Türen zu einer Welt voller Stil und Komfort. </p>
+											<p class="slide-content-specialsandpromotions__text text text--small">Ein Luxusauto in
+												Uzwil zu mieten ist
+												eine Gelegenheit, sich ein wenig Luxus zu leisten und unvergessliche Momente zu
+												schaffen,
+												an die man sich noch lange erinnern wird.</p>
+										</div>
+										<div class="slide-content-specialsandpromotions__block color-text color-text--black-color">
+											<div class="slide-content-specialsandpromotions__image-block">
+												<img class="slide-content-specialsandpromotions__image ibg" data-src="img/specialsandpromotions/specialsandpromotions-1.webp" alt="Image">
+												<div class="slide-content-specialsandpromotions__icon _icon-steering-wheel-car-svgrepo-com">
+												</div>
+											</div>
+											<div class="slide-content-specialsandpromotions__discount discount-slide">
+												<h3 class="discount-slide__title title-pangram">Rabatte für Stammkunden</h3>
+												<p class="discount-slide__parahraph title-pangram--text-small">Unseren Stammkunden
+													bieten wir Rabatte von bis
+													zu
+													15%
+													für wiederholte Anmietungen.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- Якщо потрібна навігація (ліворуч/праворуч) -->
+							<div class="content-specialsandpromotions__button-block">
+								<div class="content-specialsandpromotions__arrows">
+									<button type="button" class="content-specialsandpromotions__arrow swiper-button-prev _icon-arrow-select"></button>
+									<button type="button" class="content-specialsandpromotions__arrow swiper-button-next _icon-arrow-select"></button>
+								</div>
+								<div class="swiper-pagination"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__our-services our-services color-text color-text--black-color">
+				<div class="our-services__container container-two">
+					<h2 data-watch data-watch-once class="our-services__headline title watcher-view-headline">Unsere
+						Dienstleistungen</h2>
+					<div data-watch data-watch-once class="our-services__content content-our-services">
+						<div class="content-our-services__item">
+							<div data-gallery class="content-our-services__link-block">
+								<a href="img/our-services/our-services-1.webp" class="content-our-services__link"><img class="content-our-services__image ibg" data-src="img/our-services/our-services-1.webp" alt="Wir liefern Autos überall in der Schweiz"></a>
+							</div>
+							<div class="content-our-services__block-text">
+								<a href="#" class="content-our-services__title text text--small-text">Wir liefern Autos überall
+									in der Schweiz</a>
+							</div>
+						</div>
+						<div class="content-our-services__item">
+							<div data-gallery class="content-our-services__link-block">
+								<a href="img/our-services/our-services-2.webp" class="content-our-services__link"><img class="content-our-services__image ibg" data-src="img/our-services/our-services-2.webp" alt="Autovermietung mit privatem Fahrer"></a>
+							</div>
+							<div class="content-our-services__block-text">
+								<a href="#" class="content-our-services__title text text--small-text">Autovermietung mit
+									privatem Fahrer</a>
+							</div>
+						</div>
+						<div class="content-our-services__item">
+							<div data-gallery class="content-our-services__link-block">
+								<a href="img/our-services/our-services-3.webp" class="content-our-services__link"><img class="content-our-services__image ibg" data-src="img/our-services/our-services-3.webp" alt="Vertretungsfahrer"></a>
+							</div>
+							<div class="content-our-services__block-text">
+								<a href="#" class="content-our-services__title text text--small-text">Vertretungsfahrer</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__reasonsforordering reasonsforordering color-text color-text--black-color">
+				<div class="reasonsforordering__container container-two">
+					<h2 data-watch data-watch-once class="reasonsforordering__headline title watcher-view-headline">6 Gründe,
+						ein Auto mit
+						DizMieten zu mieten</h2>
+					<div data-watch data-watch-once class="reasonsforordering__content content-reasonsforordering">
+						<div class="content-reasonsforordering__item">
+							<div class="content-reasonsforordering__image-block _icon-auto-insurance-car-insurance-insured-svgrepo-com">
+							</div>
+							<div class="content-reasonsforordering__block-text">
+								<h3 class="content-reasonsforordering__title title-pangram title-pangram--text-slightly-less">
+									Die Versicherung</h3>
+								<p class="content-reasonsforordering__parahraph title-pangram title-pangram--text-small">Alle
+									unsere Fahrzeuge sind versichert</p>
+							</div>
+						</div>
+						<div class="content-reasonsforordering__item">
+							<div class="content-reasonsforordering__image-block _icon-barcode-ui-web-svgrepo-com"></div>
+							<div class="content-reasonsforordering__block-text">
+								<h3 class="content-reasonsforordering__title title-pangram title-pangram--text-slightly-less">
+									Preispolitik</h3>
+								<p class="content-reasonsforordering__parahraph title-pangram title-pangram--text-small">Stets
+									erschwingliche Preise und angenehme Boni
+									für Stammkunden</p>
+							</div>
+						</div>
+						<div class="content-reasonsforordering__item">
+							<div class="content-reasonsforordering__image-block _icon-barcode-ui-web-svgrepo-com"></div>
+							<div class="content-reasonsforordering__block-text">
+								<h3 class="content-reasonsforordering__title title-pangram title-pangram--text-slightly-less">
+									Preispolitik</h3>
+								<p class="content-reasonsforordering__parahraph title-pangram title-pangram--text-small">Stets
+									erschwingliche Preise und angenehme Boni
+									für Stammkunden</p>
+							</div>
+						</div>
+						<div class="content-reasonsforordering__item">
+							<div class="content-reasonsforordering__image-block _icon-payment-method-svgrepo-com"></div>
+							<div class="content-reasonsforordering__block-text">
+								<h3 class="content-reasonsforordering__title title-pangram title-pangram--text-slightly-less">
+									Bezahlung</h3>
+								<p class="content-reasonsforordering__parahraph title-pangram title-pangram--text-small">Jede
+									für Sie geeignete Zahlungsart</p>
+							</div>
+						</div>
+						<div class="content-reasonsforordering__item">
+							<div class="content-reasonsforordering__image-block _icon-steering-wheel-car-svgrepo-com"></div>
+							<div class="content-reasonsforordering__block-text">
+								<h3 class="content-reasonsforordering__title title-pangram title-pangram--text-slightly-less">
+									Fuhrpark</h3>
+								<p class="content-reasonsforordering__parahraph title-pangram title-pangram--text-small">Der
+									gesamte Fuhrpark ist in ausgezeichnetem
+									Zustand
+									und wird ständig mit neuen Modellen aktualisiert</p>
+							</div>
+						</div>
+						<div class="content-reasonsforordering__item">
+							<div class="content-reasonsforordering__image-block _icon-speed-meter-svgrepo-com"></div>
+							<div class="content-reasonsforordering__block-text">
+								<h3 class="content-reasonsforordering__title title-pangram title-pangram--text-slightly-less">
+									Geschwindigkeit</h3>
+								<p class="content-reasonsforordering__parahraph title-pangram title-pangram--text-small">
+									Anmietung eines beliebigen Autos in höchstens
+									15 Minuten</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__more-information more-information">
+				<div class="more-information__container">
+					<h2 data-watch data-watch-once class="more-information__headline-mobile title watcher-view-headline">
+						Autovermietung in
+						Schweiz</h2>
+					<div class="more-information__content container-two">
+						<div data-watch data-watch-once class="more-information__image-block">
+							<img class="more-information__image ibg" data-src="img/more-information/more-information-1.webp" alt="Image">
+						</div>
+						<div class="more-information__block-text">
+							<h2 data-watch data-watch-once class="more-information__headline title watcher-view-headline">
+								Autovermietung in
+								Schweiz</h2>
+							<div data-watch data-watch-once class="more-information__parahraph text text--small">
+								<p class="more-information__text">Für weitere Informationen über die Autovermietung können Sie
+									unser Büro besuchen, einen Antrag auf der Website hinterlassen oder <a href="tel:41796325136" class="more-information__link">+41 79 632 51 36</a> anrufen.</p>
+								<p class="more-information__text">Wir helfen Ihnen gerne bei allen Fragen, die Sie haben, und
+									liefern Ihnen ein Qualitätsauto.</p>
+							</div>
+							<div data-watch data-watch-once class="more-information__counters counter-more">
+								<div class="counter-more__item">
+									<div data-digits-counter data-digits-counter-speed="1200" class="counter-more__object">4
+									</div>
+									<div class="counter-more__text title-pangram title-pangram--less">Mehr als 4 Jahre auf dem
+										Markt der Autovermietung</div>
+								</div>
+								<div class="counter-more__item">
+									<div data-digits-counter data-digits-counter-speed="2000" class="counter-more__object">40
+									</div>
+									<div class="counter-more__text title-pangram title-pangram--less">hochwertige und
+										exklusive Modelle</div>
+								</div>
+								<div class="counter-more__item">
+									<div data-digits-counter data-digits-counter-speed="2200" class="counter-more__object">50
+									</div>
+									<div class="counter-more__text title-pangram title-pangram--less">Ein Fuhrpark im Wert von
+										mehr als 50 Millionen Dollar</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__brand-logos brand-logo">
+				<div class="brand-logo__container">
+					<!-- Оболонка слайдера -->
+					<div class="brand-logo__slider swiper">
+						<!-- Частина слайдера, що рухається -->
+						<div class="brand-logo__wrapper swiper-wrapper">
+							<!-- Слайд -->
+							<div class="brand-logo__slide slide-brand-logo swiper-slide">
+								<div class="slide-brand-logo__image-block">
+									<img class="slide-brand-logo__image ibg ibg--contain" data-src="img/brand-logo/brand-1.webp" alt="Image">
+								</div>
+							</div>
+							<div class="brand-logo__slide slide-brand-logo swiper-slide">
+								<div class="slide-brand-logo__image-block">
+									<img class="slide-brand-logo__image ibg ibg--contain" data-src="img/brand-logo/brand-2.webp" alt="Image">
+								</div>
+							</div>
+							<div class="brand-logo__slide slide-brand-logo swiper-slide">
+								<div class="slide-brand-logo__image-block">
+									<img class="slide-brand-logo__image ibg ibg--contain" data-src="img/brand-logo/brand-3.webp" alt="Image">
+								</div>
+							</div>
+							<div class="brand-logo__slide slide-brand-logo swiper-slide">
+								<div class="slide-brand-logo__image-block">
+									<img class="slide-brand-logo__image ibg ibg--contain" data-src="img/brand-logo/brand-4.webp" alt="Image">
+								</div>
+							</div>
+							<div class="brand-logo__slide slide-brand-logo swiper-slide">
+								<div class="slide-brand-logo__image-block">
+									<img class="slide-brand-logo__image ibg ibg--contain" data-src="img/brand-logo/brand-5.webp" alt="Image">
+								</div>
+							</div>
+							<div class="brand-logo__slide slide-brand-logo swiper-slide">
+								<div class="slide-brand-logo__image-block">
+									<img class="slide-brand-logo__image ibg ibg--contain" data-src="img/brand-logo/brand-6.webp" alt="Image">
+								</div>
+							</div>
+							<div class="brand-logo__slide slide-brand-logo swiper-slide">
+								<div class="slide-brand-logo__image-block">
+									<img class="slide-brand-logo__image ibg ibg--contain" data-src="img/brand-logo/brand-7.webp" alt="Image">
+								</div>
+							</div>
+							<div class="brand-logo__slide slide-brand-logo swiper-slide">
+								<div class="slide-brand-logo__image-block">
+									<img class="slide-brand-logo__image ibg ibg--contain" data-src="img/brand-logo/brand-1.webp" alt="Image">
+								</div>
+							</div>
+							<div class="brand-logo__slide slide-brand-logo swiper-slide">
+								<div class="slide-brand-logo__image-block">
+									<img class="slide-brand-logo__image ibg ibg--contain" data-src="img/brand-logo/brand-2.webp" alt="Image">
+								</div>
+							</div>
+							<div class="brand-logo__slide slide-brand-logo swiper-slide">
+								<div class="slide-brand-logo__image-block">
+									<img class="slide-brand-logo__image ibg ibg--contain" data-src="img/brand-logo/brand-3.webp" alt="Image">
+								</div>
+							</div>
+							<div class="brand-logo__slide slide-brand-logo swiper-slide">
+								<div class="slide-brand-logo__image-block">
+									<img class="slide-brand-logo__image ibg ibg--contain" data-src="img/brand-logo/brand-4.webp" alt="Image">
+								</div>
+							</div>
+							<div class="brand-logo__slide slide-brand-logo swiper-slide">
+								<div class="slide-brand-logo__image-block">
+									<img class="slide-brand-logo__image ibg ibg--contain" data-src="img/brand-logo/brand-5.webp" alt="Image">
+								</div>
+							</div>
+							<div class="brand-logo__slide slide-brand-logo swiper-slide">
+								<div class="slide-brand-logo__image-block">
+									<img class="slide-brand-logo__image ibg ibg--contain" data-src="img/brand-logo/brand-6.webp" alt="Image">
+								</div>
+							</div>
+							<div class="brand-logo__slide slide-brand-logo swiper-slide">
+								<div class="slide-brand-logo__image-block">
+									<img class="slide-brand-logo__image ibg ibg--contain" data-src="img/brand-logo/brand-7.webp" alt="Image">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__questions-remain questions-remain color-text color-text--black-color">
+				<div class="questions-remain__container">
+					<div data-watch data-watch-once class="questions-remain__link-block">
+						<a href="#" class="questions-remain__link"><img class="questions-remain__image ibg" data-src="img/questions-remain/counselor-girl2.webp" alt="Image"></a>
+					</div>
+					<div data-watch data-watch-once class="questions-remain__content content-questions">
+						<div class="content-questions__block-text">
+							<h2 class="content-questions__headline title">Haben Sie noch Fragen?</h2>
+							<p class="content-questions__parahprah text text--small">Ein Manager wird sich innerhalb von 15
+								Minuten mit Ihnen in
+								Verbindung setzen und alle Ihre Fragen beantworten.</p>
+							<div class="content-questions__phone title title--title-small">+41 (79) 632-51-36</div>
+						</div>
+						<form action="files/sendmail/sendmail.php" method="POST" class="content-questions__right booking-form">
+							<div class="booking-form__line">
+								<input type="text" name="form[name]" placeholder="Name" class="booking-form__input input text-placeholder">
+								<input type="tel" name="form[tel]" placeholder="+41 (79) 632-51-36" class="booking-form__input input text-placeholder">
+							</div>
+							<div class="booking-form__button-block"><button type="submit" class="booking-form__button button">Send</button></div>
+							<div class="booking-form__checkbox checkbox">
+								<input id="privacy-2" class="booking-form__input booking-form__input--chk checkbox__input" type="checkbox" value="1" name="form[]">
+								<label for="privacy-2" class="booking-form__label checkbox__label"><span class="booking-form__text checkbox__text">Mit dem Absenden des Formulars erkläre ich mich
+										<a href="#" class="booking-form__link">den Richtlinien zur Verarbeitung personenbezogener
+											Daten</a></span></label>
+							</div>
+						</form>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__top top-footer">
+				<div class="top-footer__container">
+					<div class="top-footer__column">
+						<a href="#" class="top-footer__logo">
+							<div class="top-footer__logo-main"><span>diz</span>mieten </div><span class="top-footer__logo-span">autovermietungsdienst</span>
+						</a>
+						<div class="top-footer__tel-and-time tel-and-time">
+							<div class="tel-and-time__block">
+								<a href="tel:41796325136" class="tel-and-time__tel">+41 79 632 51 36</a>
+								<p class="tel-and-time__date">Arbeitszeiten: 10:00 bis 20:00 Uhr</p>
+							</div>
+							<button data-popup="#popup-Book-a-call" type="button" class="tel-and-time__order-a-call button">Anrufen</button>
+						</div>
+						<ul class="top-footer__contacts contacts-top-footer">
+							<li class="contacts-top-footer__item">
+								<a href="#" class="contacts-top-footer__link _icon-location">Uzwil</a>
+							</li>
+							<li class="contacts-top-footer__item">
+								<a href="mailto:email@gmail.com" class="contacts-top-footer__link">email@gmail.com</a>
+							</li>
+						</ul>
+						<ul class="top-footer__social social-top-footer">
+							<li class="social-top-footer__item"><a href="#" class="social-top-footer__link _icon-whatsapp-social"></a></li>
+							<li class="social-top-footer__item"><a href="#" class="social-top-footer__link _icon-telegram-social"></a></li>
+						</ul>
+					</div>
+					<div data-spollers="479.98,max" class="top-footer__column">
+						<details class="top-footer__item">
+							<summary class="top-footer__title _icon-arrow-select">Kunden</summary>
+							<nav class="top-footer__body body-f-top">
+								<ul class="body-f-top__list">
+									<li class="body-f-top__item"><a href="#" data-goto-header data-goto=".home-section" class="body-f-top__link">Hauptseite</a></li>
+									<li class="body-f-top__item"><a href="#" data-goto-header data-goto=".motor-pool" class="body-f-top__link">Auto auswählen</a></li>
+									<li class="body-f-top__item"><a href="#" data-goto-header data-goto=".our-services" class="body-f-top__link">Über uns</a></li>
+									<li class="body-f-top__item"><a href="#" data-goto-header data-goto=".stepsforrenting" class="body-f-top__link">Bedingungen</a></li>
+								</ul>
+							</nav>
+						</details>
+					</div>
+					<div data-spollers="479.98,max" class="top-footer__column">
+						<details class="top-footer__item">
+							<summary class="top-footer__title _icon-arrow-select">Fuhrpark</summary>
+							<nav class="top-footer__body body-f-top">
+								<ul class="body-f-top__list">
+									<li class="body-f-top__item"><a href="#" class="body-f-top__link">Offroad</a></li>
+									<li class="body-f-top__item"><a href="#" class="body-f-top__link">Sportwagen</a></li>
+									<li class="body-f-top__item"><a href="#" class="body-f-top__link">Business</a></li>
+									<li class="body-f-top__item"><a href="#" class="body-f-top__link">Premium</a></li>
+									<li class="body-f-top__item"><a href="#" class="body-f-top__link">Komfort</a></li>
+								</ul>
+							</nav>
+						</details>
+					</div>
+					<div data-spollers="479.98,max" class="top-footer__column">
+						<details class="top-footer__item">
+							<summary class="top-footer__title _icon-arrow-select">Veranstaltung</summary>
+							<nav class="top-footer__body body-f-top">
+								<ul class="body-f-top__list">
+									<li class="body-f-top__item"><a href="#" class="body-f-top__link">Hochzeit</a></li>
+									<li class="body-f-top__item"><a href="#" class="body-f-top__link">Fotoshooting</a></li>
+									<li class="body-f-top__item"><a href="#" class="body-f-top__link">Videoaufnahme</a></li>
+									<li class="body-f-top__item"><a href="#" class="body-f-top__link">Geburtstag</a></li>
+								</ul>
+							</nav>
+						</details>
+					</div>
+				</div>
+			</div>
+			<div class="footer__bottom bottom-footer">
+				<div class="bottom-footer__container">
+					<p class="bottom-footer__copy">©2024 dizmieten-autovermietungsdienst</p>
+					<a href="#" class="bottom-footer__privacy">Privacy policy</a>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20240927140135"></script>
+</body>
+
+</html>
